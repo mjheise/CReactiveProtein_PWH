@@ -98,7 +98,7 @@ substrRight <- function(x, n){
 
 #### 1. READ IN DATA ####
 # Set working directory
-df_fold <- 'C:/Users/mheise/Box/SpinelliLab/Projects/ARCHES/Data/REDCap/'
+df_fold <- ''
 
 # List csv in wd
 csvs <- list.files(path = df_fold, pattern = '\\.csv$', full.names = T)
